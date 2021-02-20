@@ -1,1 +1,1 @@
-# jetbrains-python-projects
+# Jetbrains-Python-Projects
