@@ -1,1 +1,1 @@
-# Jetbrains-Python-Projects
+# Hyperskill-Python-Projects
