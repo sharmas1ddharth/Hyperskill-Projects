@@ -1,6 +1,5 @@
 # Hyperskill-Python-Projects
 Join JetBrains Academy from [here](https://hyperskill.org/join/bf2c8e62c)
-
 (Under Construction, Updating everday. Do visit again!)
 
 # Projects
