@@ -1,8 +1,8 @@
-# Hyperskill-Python-Projects
+# Hyperskill-Python-Projects ![](https://image.flaticon.com/icons/png/32/1387/1387537.png)
 Join JetBrains Academy from [here](https://hyperskill.org/join/bf2c8e62c)
 (Under Construction, Updating everday. Do visit again!)
 
-# Projects
+# Projects ![](https://image.flaticon.com/icons/png/32/1087/1087815.png)
 
 ## Easy
 - [Zookeeper](https://github.com/sharmas1ddharth/ZooKeeper)
@@ -12,7 +12,7 @@ Join JetBrains Academy from [here](https://hyperskill.org/join/bf2c8e62c)
 - [Currency Converter](https://github.com/sharmas1ddharth/Currency-Converter)
 - [Markdown Editor](https://github.com/sharmas1ddharth/Markdown-Editor)
 - Tic-Tac-Toe
-- Coffee Machine
+- [Coffee Machine](https://github.com/sharmas1ddharth/Coffee-Machine)
 
 ## Medium
 - Simple Banking System
