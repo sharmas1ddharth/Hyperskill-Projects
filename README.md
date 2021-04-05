@@ -11,7 +11,7 @@ Join JetBrains Academy from [here](https://hyperskill.org/join/bf2c8e62c)
 - [Loan Calculator](https://github.com/sharmas1ddharth/Loan-Calculator)
 - [Currency Converter](https://github.com/sharmas1ddharth/Currency-Converter)
 - [Markdown Editor](https://github.com/sharmas1ddharth/Markdown-Editor)
-- Tic-Tac-Toe
+- [Tic-Tac-Toe](https://github.com/sharmas1ddharth/Tic-Tac-Toe)
 - [Coffee Machine](https://github.com/sharmas1ddharth/Coffee-Machine)
 
 ## Medium
