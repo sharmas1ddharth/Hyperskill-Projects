@@ -40,4 +40,5 @@ Join JetBrains Academy from [here](https://hyperskill.org/join/bf2c8e62c)
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
