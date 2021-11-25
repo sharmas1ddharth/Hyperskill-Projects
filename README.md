@@ -7,21 +7,9 @@ Join JetBrains Academy from [here](https://hyperskill.org/join/bf2c8e62c)
 # Projects ![](https://image.flaticon.com/icons/png/32/1087/1087815.png)
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#python">Python</a>
-    </li>
-  </ol>
-</details>
+# Python
 
-
-
-## Python
-
-### Easy
+###Easy
 - [Zookeeper](https://github.com/sharmas1ddharth/Hyperskill-Projects/blob/main/Python/Easy/zookeeper.py)
 - [Simple Chatty Bot](https://github.com/sharmas1ddharth/Hyperskill-Projects/blob/main/Python/Easy/simple_chatty_bot.py)
 - [Hangman](https://github.com/sharmas1ddharth/Hyperskill-Projects/blob/main/Python/Easy/hangman.py)
