@@ -1,13 +1,17 @@
-msg_0 = "Enter an equation"
-msg_1 = "Do you even know what numbers are? Stay focused!"
-msg_2 = "Yes ... an interesting math operation. You've slept through all classes, haven't you?"
-msg_3 = "Yeah... division by zero. Smart move..."
-msg_4 = "Do you want to store the result? (y / n):"
-msg_5 = "Do you want to continue calculations? (y / n):"
-msg_6 = " ... lazy"
-msg_7 = " ... very lazy"
-msg_8 = " ... very, very lazy"
-msg_9 = "You are"
+messages = ["Enter an equation",
+            "Do you even know what numbers are? Stay focused!",
+            "Yes ... an interesting math operation. You've slept through all classes, haven't you?",
+            "Yeah... division by zero. Smart move...",
+            "Do you want to store the result? (y / n):",
+            "Do you want to continue calculations? (y / n):",
+            " ... lazy",
+            " ... very lazy",
+            " ... very, very lazy",
+            "You are",
+            "Are you sure? It is only one digit! (y / n)",
+            "Don't be silly! It's just one number! Add to the memory? (y / n)",
+            "Last chance! Do you really want to embarrass yourself? (y / n)"]
+
 ops = ['+', '*', '-', '/']
 
 memory = []
@@ -45,7 +49,7 @@ def calculator(num1, op, num2):
 
 def continue_calc():
     while True:
-        print(msg_5)
+        print(messages[5])
         answer = input()
         if answer == "n":
             exit()
@@ -56,13 +60,39 @@ def continue_calc():
             continue
 
 
-def store_result(res):
+def msg_index_fun(res):
     while True:
-        print(msg_4)
-        answer = input()
-        if answer == "y":
+        if not is_one_digit(res):
             memory.append(res)
             continue_calc()
+
+        elif is_one_digit(res):
+            msg_index = 10
+            print(messages[msg_index])
+            read_ans = input()
+            if read_ans == "y":
+                if msg_index < 13:
+                    msg_index += 1
+                    continue
+                else:
+                    memory.append(res)
+                    continue_calc()
+
+            elif read_ans == "n":
+                memory.append(res)
+                continue_calc()
+
+            else:
+                continue
+
+
+def store_result(res):
+    while True:
+        print(messages[4])
+        answer = input()
+        if answer == "y":
+            msg_index_fun(res)
+
         elif answer == "n":
             continue_calc()
         else:
@@ -80,22 +110,22 @@ def is_one_digit(v):
 def check(v1, v2, v3):
     msg = ""
     if is_one_digit(v1) and is_one_digit(v2):
-        msg += msg_6
+        msg += messages[6]
 
     if v3 == "*" and (float(v1) == 1 or float(v2) == 1):
-        msg += msg_7
+        msg += messages[7]
 
     if (float(v1) == 0 or float(v2) == 0) and (v3 != "/"):
-        msg += msg_8
+        msg += messages[8]
 
     if msg:
-        msg = msg_9 + msg
+        msg = messages[9] + msg
         print(msg)
 
 
 def main():
     while True:
-        print(msg_0)
+        print(messages[0])
         user_input = input().split()
 
         x = check_M(user_input[0])
@@ -104,15 +134,15 @@ def main():
         check(x, y, op)
 
         if is_float(x) == False or is_float(y) == False:
-            print(msg_1)
+            print(messages[1])
             continue
 
         elif op not in ops:
-            print(msg_2)
+            print(messages[2])
             continue
 
         elif op == '/' and float(y) == 0:
-            print(msg_3)
+            print(messages[3])
             continue
         else:
             result = calculator(float(x), op, float(y))
@@ -123,3 +153,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

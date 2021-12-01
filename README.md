@@ -7,6 +7,12 @@ Join JetBrains Academy from [here](https://hyperskill.org/join/bf2c8e62c)
 # Projects ![](https://image.flaticon.com/icons/png/32/1087/1087815.png)
 
 
+## NLP
+
+### Easy
+- [Honest Calculator]()
+
+
 ## Python
 
 ### Easy
